@@ -3,6 +3,9 @@
 a simple thing with analog and digital I/O for the "Modular Things" project
 
 ![Multi-IO](Multi-IO.jpg)
+
+## Wiring ##
+
 ![Schematic](./multi_io/circuit/images/schematic.png)
 
 
