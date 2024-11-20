@@ -2,10 +2,13 @@
 
 a simple thing with analog and digital I/O for the "Modular Things" project
 
+![Schematic](./multi-io/circuit/images/schematic.png)
+
+
 ## Application Example ##
 
 ```javascript
-const BlinkDelay = 800 // LED toggle every BlinkDelay millisecond
+const BlinkDelay = 800 // LED toggles every BlinkDelay milliseconds
 
 let Timestamp = Date.now(), Value = 0
 loop(async () => {
@@ -17,11 +20,11 @@ loop(async () => {
     Timestamp = now
   }
 
-  let AnalogIn = await MultiIO.getAnalog1()
-  await MultiIO.setAnalog0(AnalogIn)
+  let AnalogIn = await MultiIO.getAnalog(1)
+  await MultiIO.setAnalog(0,AnalogIn)
   
-  let DigitalIn = await MultiIO.getDigital3()
-  await MultiIO.setDigital3(DigitalIn)
+  let DigitalIn = await MultiIO.getDigital(3)
+  await MultiIO.setDigital(3,DigitalIn)
   
   let HTML = `<div style="padding:4px">
     <b>Value:</b> &nbsp; &nbsp; &nbsp; ${Value}<br>
