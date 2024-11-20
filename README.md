@@ -2,7 +2,7 @@
 
 a simple thing with analog and digital I/O for the "Modular Things" project
 
-![Schematic](./multi-io/circuit/images/schematic.png)
+![Schematic](./multi_io/circuit/images/schematic.png)
 
 
 ## Application Example ##
