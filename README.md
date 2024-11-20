@@ -380,3 +380,7 @@ loop(async () => {
   render(Fragment.firstChild)
 }, 10)
 ```
+
+## License ##
+
+[MIT License](LICENSE.md)
