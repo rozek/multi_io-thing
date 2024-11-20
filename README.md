@@ -12,6 +12,8 @@ This "thing" allows to control 4 digital input, 4 digital output, 2 analog input
 
 ![Schematic](./multi_io/circuit/images/schematic.png)
 
+The digital input pins are configured with pull-up resistors which makes them "active low": when open, they report `0` although their internal state is HIGH. Pull them to ground in order to read a `1`.
+
 ## Installation and Usage ##
 
 Below are instructions for installation and use of the "multi_io" thing - skip whatever does not seem applicable:
