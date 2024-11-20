@@ -381,7 +381,7 @@ loop(async () => {
 }, 10)
 ```
 
-![Multi-IO-Test](Multi-IO-Test.jpg)
+![Multi-IO-Test](Multi-IO-Test.png)
 
 This application lets the built-in LED blink blue, pressing the switch will light the orange LED up, and the attached potentometer will control the brightness of the blue LED.
 
