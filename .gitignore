@@ -88,8 +88,7 @@ web_modules/
 out
 
 # Nuxt.js build / generate output
-.nuxt
-dist
+.nux
 
 # Gatsby files
 .cache/
@@ -128,3 +127,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.DS_Store
+package-lock.json
