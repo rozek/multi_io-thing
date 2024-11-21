@@ -2,7 +2,7 @@
 
 a simple thing with analog and digital I/O for the "[Modular-Things](https://github.com/modular-things/modular-things)" project
 
-This "thing" allows to control 4 digital input, 4 digital output, 2 analog input and 2 analog output pins in addition to the on-board RGB LED.
+This "thing" allows to control 4 digital inputs, 4 digital outputs, 2 analog inputs, 2 analog outputs and the on-board RGB LED.
 
 ![Multi-IO](Multi-IO.jpg)
 
