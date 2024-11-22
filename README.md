@@ -125,7 +125,7 @@ loop(async () => {
 
 ## Firmware (Board-specific) ##
 
-In the "Modular Things" terminology, the "firmware" of a thing is an Arduino sketch which implements a thing's functionality on the hardware side. Here is the one for the "multi_io" thing based on a Tiny2040 (please, use the contents of file [multi_io/firmware-RP2040-Zero/multi_io/multi_io.ino](multi_io/firmware-RP2040-Zero/multi_io/multi_io.ino) for a Waveshare RP2040-Zero board instead):
+In the "Modular Things" terminology, the "firmware" of a thing is an Arduino sketch which implements a thing's functionality on the hardware side. Here is the one for a "multi_io" thing based on a Tiny2040 (please, use the contents of file [multi_io/firmware-RP2040-Zero/multi_io/multi_io.ino](multi_io/firmware-RP2040-Zero/multi_io/multi_io.ino) for a Waveshare RP2040-Zero board instead):
 
 ```c++
 #include <osap.h>
